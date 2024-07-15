@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.bio {
+    text-align: center;
+}
+
+.profile-pic {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-item {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.songs, .social {
+    margin-bottom: 20px;
+}
+.audio
+{text-align: center; margin-bottom: 20px;}
+audio{width: 100%; max-width: 400px;}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
